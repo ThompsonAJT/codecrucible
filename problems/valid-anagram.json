@@ -1,0 +1,20 @@
+{
+  "id": "valid-anagram",
+  "title": "Valid Anagram",
+  "difficulty": "Easy",
+  "tags": ["string", "hash-table", "sorting"],
+  "description": "Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.\n\n**Example**\n```\nInput: s = \"anagram\", t = \"nagaram\"\nOutput: true\n```",
+  "functionName": "isAnagram",
+  "params": [
+    { "name": "s", "type": "string" },
+    { "name": "t", "type": "string" }
+  ],
+  "returnType": "boolean",
+  "testCases": [
+    { "input": { "s": "anagram", "t": "nagaram" }, "output": true },
+    { "input": { "s": "rat", "t": "car" }, "output": false },
+    { "input": { "s": "a", "t": "a" }, "output": true },
+    { "input": { "s": "ab", "t": "a" }, "output": false, "hidden": true },
+    { "input": { "s": "listen", "t": "silent" }, "output": true, "hidden": true }
+  ]
+}

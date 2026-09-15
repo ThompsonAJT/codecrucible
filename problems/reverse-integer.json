@@ -1,0 +1,16 @@
+{
+  "id": "reverse-integer",
+  "title": "Reverse Integer",
+  "difficulty": "Medium",
+  "tags": ["math"],
+  "description": "Given a signed 32-bit integer `x`, return `x` with its digits reversed. If reversing causes the value to go outside the signed 32-bit integer range `[-2^31, 2^31 - 1]`, return `0`.\n\n**Example**\n```\nInput: x = 123\nOutput: 321\nInput: x = -123\nOutput: -321\n```",
+  "functionName": "reverse",
+  "params": [{ "name": "x", "type": "int" }],
+  "returnType": "int",
+  "testCases": [
+    { "input": { "x": 123 }, "output": 321 },
+    { "input": { "x": -123 }, "output": -321 },
+    { "input": { "x": 120 }, "output": 21 },
+    { "input": { "x": 1534236469 }, "output": 0, "hidden": true }
+  ]
+}

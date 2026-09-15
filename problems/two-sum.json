@@ -1,0 +1,21 @@
+{
+  "id": "two-sum",
+  "title": "Two Sum",
+  "difficulty": "Easy",
+  "tags": ["array", "hash-table"],
+  "description": "Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input has exactly one solution, and you may not use the same element twice. Return the answer in any order.\n\n**Example**\n```\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: nums[0] + nums[1] == 9\n```",
+  "functionName": "twoSum",
+  "params": [
+    { "name": "nums", "type": "int[]" },
+    { "name": "target", "type": "int" }
+  ],
+  "returnType": "int[]",
+  "comparisonMode": "unordered",
+  "testCases": [
+    { "input": { "nums": [2, 7, 11, 15], "target": 9 }, "output": [0, 1] },
+    { "input": { "nums": [3, 2, 4], "target": 6 }, "output": [1, 2] },
+    { "input": { "nums": [3, 3], "target": 6 }, "output": [0, 1] },
+    { "input": { "nums": [1, 2, 3, 4, 5], "target": 9 }, "output": [3, 4], "hidden": true },
+    { "input": { "nums": [-3, 4, 3, 90], "target": 0 }, "output": [0, 2], "hidden": true }
+  ]
+}

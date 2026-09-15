@@ -1,0 +1,18 @@
+{
+  "id": "valid-parentheses",
+  "title": "Valid Parentheses",
+  "difficulty": "Easy",
+  "tags": ["string", "stack"],
+  "description": "Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid. A string is valid if brackets are closed by the same type of bracket and in the correct order.\n\n**Example**\n```\nInput: s = \"()[]{}\"\nOutput: true\n```",
+  "functionName": "isValid",
+  "params": [{ "name": "s", "type": "string" }],
+  "returnType": "boolean",
+  "testCases": [
+    { "input": { "s": "()" }, "output": true },
+    { "input": { "s": "()[]{}" }, "output": true },
+    { "input": { "s": "(]" }, "output": false },
+    { "input": { "s": "([)]" }, "output": false, "hidden": true },
+    { "input": { "s": "{[]}" }, "output": true, "hidden": true },
+    { "input": { "s": "(" }, "output": false, "hidden": true }
+  ]
+}

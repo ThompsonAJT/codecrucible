@@ -1,0 +1,16 @@
+{
+  "id": "climbing-stairs",
+  "title": "Climbing Stairs",
+  "difficulty": "Easy",
+  "tags": ["dynamic-programming", "math"],
+  "description": "You are climbing a staircase with `n` steps. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?\n\n**Example**\n```\nInput: n = 3\nOutput: 3\nExplanation: 1+1+1, 1+2, 2+1\n```",
+  "functionName": "climbStairs",
+  "params": [{ "name": "n", "type": "int" }],
+  "returnType": "int",
+  "testCases": [
+    { "input": { "n": 2 }, "output": 2 },
+    { "input": { "n": 3 }, "output": 3 },
+    { "input": { "n": 5 }, "output": 8, "hidden": true },
+    { "input": { "n": 1 }, "output": 1, "hidden": true }
+  ]
+}

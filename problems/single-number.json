@@ -1,0 +1,15 @@
+{
+  "id": "single-number",
+  "title": "Single Number",
+  "difficulty": "Easy",
+  "tags": ["array", "bit-manipulation"],
+  "description": "Given a non-empty array of integers `nums`, every element appears twice except for one. Find that single one. Your algorithm should have linear runtime complexity.\n\n**Example**\n```\nInput: nums = [4,1,2,1,2]\nOutput: 4\n```",
+  "functionName": "singleNumber",
+  "params": [{ "name": "nums", "type": "int[]" }],
+  "returnType": "int",
+  "testCases": [
+    { "input": { "nums": [2, 2, 1] }, "output": 1 },
+    { "input": { "nums": [4, 1, 2, 1, 2] }, "output": 4 },
+    { "input": { "nums": [1] }, "output": 1, "hidden": true }
+  ]
+}

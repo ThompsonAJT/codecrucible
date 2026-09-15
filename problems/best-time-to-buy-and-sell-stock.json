@@ -1,0 +1,16 @@
+{
+  "id": "best-time-to-buy-and-sell-stock",
+  "title": "Best Time to Buy and Sell Stock",
+  "difficulty": "Easy",
+  "tags": ["array", "dynamic-programming"],
+  "description": "You are given an array `prices` where `prices[i]` is the price of a stock on day `i`. You want to maximize your profit by choosing a single day to buy one stock and a different day in the future to sell it. Return the maximum profit achievable, or `0` if no profit is possible.\n\n**Example**\n```\nInput: prices = [7,1,5,3,6,4]\nOutput: 5\nExplanation: buy on day 2 (price 1), sell on day 5 (price 6), profit = 5\n```",
+  "functionName": "maxProfit",
+  "params": [{ "name": "prices", "type": "int[]" }],
+  "returnType": "int",
+  "testCases": [
+    { "input": { "prices": [7, 1, 5, 3, 6, 4] }, "output": 5 },
+    { "input": { "prices": [7, 6, 4, 3, 1] }, "output": 0 },
+    { "input": { "prices": [2, 4, 1] }, "output": 2, "hidden": true },
+    { "input": { "prices": [1, 2] }, "output": 1, "hidden": true }
+  ]
+}
